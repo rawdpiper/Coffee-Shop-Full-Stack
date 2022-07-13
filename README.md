@@ -118,5 +118,5 @@ need to remove  app.debug = True
 
 ### Authors
 
-Saleh Alibrahim authored  the api (main.py) , authorization (auth.py), and this README.
+Hamzat Azeez authored  the api (main.py) , authorization (auth.py), and this README.
 All other project files, including the models and frontend, were created by Udacity as a project template for the [Full Stack Web Developer Nanodegree]
