@@ -13,7 +13,7 @@ CORS(app)
 
 
 # uncomment next line to drop all records and start db from scratch
-# db_drop_and_create_all()
+db_drop_and_create_all()
 
 # Get all drinks
 @app.route('/drinks')

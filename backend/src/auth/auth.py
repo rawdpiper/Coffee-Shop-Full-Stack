@@ -108,7 +108,7 @@ def verify_decode_jwt(token):
     raise AuthError({
         'code': 'invalid_header',
                 'description': 'Unable to find the appropriate key.'
-    }, 400)
+    }, 403)
 
 # Verifies permissions for the user
 
@@ -124,7 +124,7 @@ def check_permissions(permission, payload):
         raise AuthError({
             'code': 'unauthorized',
             'description': 'Permission not found.'
-        }, 401)
+        }, 403)
 
     return True
 
